@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DM</string>
+    <string name="search_name">search name</string>
+    <string name="your_messages">Your messages</string>
+</resources>

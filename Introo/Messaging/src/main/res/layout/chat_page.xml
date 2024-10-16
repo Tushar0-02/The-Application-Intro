@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@drawable/backcolor">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/mj"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+        
+        <TextView
+            android:id="@+id/textname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Tushar"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText,SpUsage" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        android:background="@drawable/backcolor"
+        tools:ignore="UselessLeaf">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:orientation="horizontal"
+        tools:ignore="VisualLintBounds">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Message"
+            android:textStyle="italic"
+            android:textSize="28dp"
+            android:textColor="@color/black"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/send"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintButtonSize" />
+
+
+    </LinearLayout>
+    
+
+</LinearLayout>
