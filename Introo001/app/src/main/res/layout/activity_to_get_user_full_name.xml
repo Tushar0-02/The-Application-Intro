@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/custom_background"
+    tools:context=".toGetUserFullName">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi There! 👋"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textColor="@color/custom_primary"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good to see you in Introo+ lets connect with your frds easily without any attatchment."
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <EditText
+        android:id="@+id/getUserFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:backgroundTint="@color/custom_secondary"
+        android:textColor="@android:color/black"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/getUserLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:backgroundTint="@color/custom_secondary"
+        android:textColor="@android:color/black"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnContinueToDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/custom_secondary"
+        android:layout_marginTop="16dp"
+        android:text="Continue"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnGoogleRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue with Google"
+        android:backgroundTint="@color/custom_secondary"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Already have an account? Sign In!"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+</LinearLayout>
