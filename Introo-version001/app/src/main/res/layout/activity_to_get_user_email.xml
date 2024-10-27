@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/custom_background"
+    tools:context=".toGetUserEmail">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Before you go further, you need to add your email to get help from our center to help you recover your account."
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <EditText
+        android:id="@+id/getUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:backgroundTint="@color/custom_secondary"
+        android:textColor="@android:color/black"
+        android:inputType="text" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="520dp">
+
+        <Button
+            android:id="@+id/btnBackToEditDateOfBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/custom_secondary"
+            android:text="Back"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnContinueToEmailVerificationViaOtp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/custom_secondary"
+            android:text="Next"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</LinearLayout>

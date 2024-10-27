@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "168253062601",
+    "project_id": "inroo-sample",
+    "storage_bucket": "inroo-sample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168253062601:android:a97f321a5722e692db3c18",
+        "android_client_info": {
+          "package_name": "com.example.introo001"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJSbQSJHFAT-DX3lAJE1fihdUZfO4BChY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

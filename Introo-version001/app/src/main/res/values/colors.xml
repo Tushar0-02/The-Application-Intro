@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Custom Color Palette -->
+    <color name="custom_primary">#03045e</color> <!-- Dark Blue -->
+    <color name="custom_secondary">#0077b6</color> <!-- Blue -->
+    <color name="custom_accent">#0096c7</color> <!-- Light Blue -->
+    <color name="custom_background">#caf0f8</color> <!-- Light Cyan -->
+</resources>
